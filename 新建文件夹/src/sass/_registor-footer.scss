@@ -1,0 +1,48 @@
+.registor-footer-box{
+    width:1000px;
+    margin:0 auto;
+    padding-top:40px;
+    padding-bottom:20px;
+}
+.registor-footer-top{
+    ul{
+        margin-right:40px;
+    }
+    li{
+        width:75px;
+        border-right:1px solid #888;
+        float:left;
+        text-align:center;
+        a{
+            text-decoration: none;
+            font-size:14px;
+            color:#000;
+        }
+    }
+    .rexian{
+        span{
+            font-size:14px;
+            margin-right:10px;
+        }
+        a{
+            text-decoration: none;
+            display:inline-block;
+            width:64px;
+            height:20px;
+            background:#32a5e7;
+            text-align:center;
+            line-height:20px;
+            color:#fff;
+            font-size:14px;
+            border-radius: 2px;
+        }
+    }
+    .iconfont{
+        font-size:40px;
+        color:#7f7f7f;
+    }
+}
+.registor-footer-bottom{
+    font-size:12px;
+    color:#7f7f7f;
+}

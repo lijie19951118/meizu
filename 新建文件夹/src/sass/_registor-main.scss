@@ -1,0 +1,86 @@
+.registor-main{
+    background:#EDF9FB;
+    .wrapper{
+        position:relative;
+        background:url(https://uc-res.mzres.com/resources/uc/wlogin/member/images/banner.png);
+        height:750px;
+    }
+}
+.registor-box{
+    right:60px;
+    top:170px;
+    position:absolute;
+    width:368px;
+    background:#fff;
+    padding-top:50px;
+}
+.registor-box-in{
+    width:300px;
+    margin:0 auto;
+    p{
+        padding-left:80px;
+        a{
+            text-decoration: none;
+            color:#387aff;
+            font-size:18px;
+            text-align:center;
+        }
+    }
+    form{
+        .err{
+            font-style:normal;
+            color:red;
+        }
+        margin-top:40px;
+        label{
+            font-size:14px;
+            position:absolute;
+            left:5px;
+            top:54px;
+        }
+        li{
+            list-style:none;
+            height:46px;
+            border:1px solid #dadada;
+            border-radius: 3px;
+            position:relative;
+            margin-bottom:30px;
+        }
+        input{
+            position:absolute;
+            font-size:14px;
+            border:0;
+            left:14px;
+            top:14px;
+        }
+    }
+    .remember{
+        font-size:14px;
+        color:#7f7f7f;
+    }
+    .enter{
+        input{
+
+            margin-top:30px;
+            margin-bottom:10px;
+            width:300px;
+            height:46px;
+            background:#387aff;
+            border-radius: 4px;
+            text-align:center;
+            line-height:46px;
+            text-decoration: none;
+            font-size:14px;
+            color:#fff;
+            cursor:pointer;
+        }
+    }
+    .zhuce{
+        margin-bottom:30px;
+        a{
+            text-decoration: none;
+        color:#387aff;
+        font-size:14px;
+        }
+    }
+}

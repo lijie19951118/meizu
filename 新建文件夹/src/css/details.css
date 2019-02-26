@@ -1,0 +1,360 @@
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.wrapper {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url("../fonts/details/iconfont.eot");
+  src: url("../fonts/details/iconfont.eot?#iefix") format("embedded-opentype"), url("../fonts/details/iconfont.woff2") format("woff2"), url("../fonts/details/iconfont.woff") format("woff"), url("../fonts/details/iconfont.ttf") format("truetype"), url("../fonts/details/iconfont.svg#iconfont") format("svg");
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#details-header {
+  border-bottom: 1px solid #efefef;
+}
+#details-header .logo a {
+  overflow: hidden;
+  display: block;
+  width: 150px;
+  height: 80px;
+}
+#details-header .logo a img {
+  display: block;
+  width: 125px;
+  height: 23px;
+  margin-top: 28px;
+}
+#details-header .cart a {
+  position: relative;
+  text-decoration: none;
+  display: block;
+  width: 34px;
+  height: 34px;
+  margin-top: 23px;
+}
+#details-header .cart a img {
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+#details-header .cart a span {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: #F10000;
+  line-height: 16px;
+  text-align: center;
+  color: #fff;
+  right: -2px;
+  top: 0px;
+  border-radius: 50px;
+  z-index: 999;
+}
+#details-header .login {
+  height: 80px;
+  margin: 0 8px 0 12px;
+}
+#details-header .login a {
+  display: block;
+  margin-top: 23px;
+}
+#details-header .login a img {
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+#details-header .search {
+  width: 172px;
+  height: 32px;
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 16px;
+  margin: 24px 0 0 18px;
+}
+#details-header .search input {
+  width: 125px;
+  height: 22px;
+  position: absolute;
+  left: 15px;
+  top: 4px;
+  border: 0;
+  color: #999;
+}
+#details-header .search a {
+  position: absolute;
+  left: 147px;
+  top: 8px;
+}
+#details-header .search a img {
+  display: block;
+  width: 17px;
+  height: 14px;
+}
+#details-header .header-nav1 li {
+  float: left;
+}
+#details-header .header-nav1 li a {
+  text-decoration: none;
+  display: block;
+  height: 80px;
+  margin: 0 20px 0 15px;
+  line-height: 80px;
+  color: #333;
+  font-size: 14px;
+}
+
+.details-main-title {
+  background: #f6f8fb;
+}
+.details-main-title span {
+  line-height: 70px;
+  font-size: 26px;
+  color: #000;
+}
+.details-main-title ul {
+  margin-top: 25px;
+}
+.details-main-title ul .last {
+  border: 0;
+}
+.details-main-title ul li {
+  float: left;
+  border-right: 1px solid #dedede;
+}
+.details-main-title ul li a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  margin: 0 20px;
+  line-height: 20px;
+}
+
+.details-shop-bigimg img {
+  width: 560px;
+  height: 560px;
+}
+
+.details-shop-img {
+  margin-right: 40px;
+}
+.details-shop-img ul {
+  margin: 10px 0 0 24px;
+}
+
+.details-shop-fdj {
+  display: none;
+}
+
+.details-shop-img li {
+  margin: 0 24px;
+  float: left;
+}
+.details-shop-img li img {
+  width: 80px;
+  height: 80px;
+}
+
+.details-bigimg-shoucang {
+  margin: 50px 0 0 59px;
+}
+.details-bigimg-shoucang a {
+  text-decoration: none;
+  color: #bfbfbf;
+  font-size: 12px;
+  position: relative;
+  margin-right: 30px;
+}
+.details-bigimg-shoucang a .shoucang {
+  font-size: 14px;
+  position: absolute;
+  left: 6px;
+  top: -21px;
+}
+.details-bigimg-shoucang a .duibi {
+  font-size: 29px;
+  position: absolute;
+  left: -3px;
+  top: -28px;
+}
+
+.details-shop-text {
+  width: 640px;
+  padding-top: 60px;
+}
+.details-shop-text i {
+  color: #8c8c8c;
+  font-size: 12px;
+  font-style: normal;
+  margin-right: 12px;
+  margin-left: 8px;
+}
+
+.details-title h1 {
+  color: #262626;
+  font-size: 28px;
+  line-height: 28px;
+}
+.details-title span {
+  color: #e22841;
+  font-size: 14px;
+  line-height: 14px;
+  display: block;
+  margin: 10px 0px 20px 0px;
+}
+
+.details-peicr {
+  background: #f4f6fa;
+  padding: 16px 0px 12px;
+}
+.details-peicr p {
+  color: #e02b41;
+  font-size: 36px;
+}
+.details-peicr p small {
+  font-size: 24px;
+}
+.details-peicr div {
+  font-size: 14px;
+  line-height: 22px;
+  color: #595959;
+  margin: 12px 0 0 10px;
+}
+.details-peicr div span {
+  display: inline-block;
+  width: 72px;
+  height: 22px;
+  text-align: center;
+  line-height: 22px;
+  font-size: 14px;
+  color: #e02b41;
+  background: #F2EAEF;
+  margin-right: 10px;
+}
+.details-peicr div a {
+  text-decoration: none;
+  color: #27b3ff;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.details-zhichi {
+  padding: 18px 0;
+}
+
+.details-peisong {
+  border-bottom: 1px dashed #dedede;
+}
+.details-peisong .dizhi {
+  font-size: 14px;
+  color: #262626;
+}
+.details-peisong div {
+  margin: 10px 0 14px 65px;
+}
+.details-peisong div a {
+  text-decoration: none;
+  color: #27b3ff;
+  font-size: 12px;
+  position: relative;
+  padding-left: 20px;
+}
+.details-peisong div a span {
+  font-size: 30px;
+  position: absolute;
+  top: -7px;
+  left: -8px;
+}
+
+.details-xinghao .b-border {
+  border-color: #000;
+}
+.details-xinghao a {
+  text-decoration: none;
+  display: inline-block;
+  width: 176px;
+  height: 40px;
+  border: 1px solid #BFBFBF;
+  line-height: 40px;
+  text-align: center;
+  color: #595959;
+  border-radius: 2px;
+  margin-right: 4px;
+  margin-top: 18px;
+}
+.details-xinghao .last-num {
+  position: relative;
+  margin-bottom: 46px;
+}
+.details-xinghao .last-num i {
+  position: absolute;
+  top: 33px;
+}
+.details-xinghao .last-num div {
+  display: inline-block;
+  height: 40px;
+  border: 1px solid #BFBFBF;
+  margin-top: 18px;
+  margin-left: 73px;
+  line-height: 40px;
+  width: 122px;
+  text-align: center;
+}
+.details-xinghao .last-num div span {
+  display: inline-block;
+  width: 32px;
+  background: #e0e0e0;
+}
+
+.details-shop div {
+  width: 210px;
+  height: 56px;
+  text-align: center;
+  line-height: 56px;
+  border-radius: 3px;
+  border: 1px solid #27B3FF;
+}
+.details-shop a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.details-shoping {
+  margin-right: 24px;
+  background: #27b3ff;
+}
+.details-shoping a {
+  color: #fff;
+}
+
+.details-joinshop a {
+  color: #27B3FF;
+}
+
+/*# sourceMappingURL=details.css.map */
