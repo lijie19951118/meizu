@@ -1,0 +1,180 @@
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.wrapper {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url("../fonts/details/iconfont.eot");
+  src: url("../fonts/details/iconfont.eot?#iefix") format("embedded-opentype"), url("../fonts/details/iconfont.woff2") format("woff2"), url("../fonts/details/iconfont.woff") format("woff"), url("../fonts/details/iconfont.ttf") format("truetype"), url("../fonts/details/iconfont.svg#iconfont") format("svg");
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.registor-header .registor-header-box {
+  width: 1200px;
+  margin: 0 auto;
+  height: 68px;
+}
+.registor-header .registor-header-box a img {
+  width: 110px;
+  height: 20px;
+  margin-top: 24px;
+}
+
+.registor-main {
+  background: #EDF9FB;
+}
+.registor-main .wrapper {
+  position: relative;
+  background: url(https://uc-res.mzres.com/resources/uc/wlogin/member/images/banner.png);
+  height: 750px;
+}
+
+.registor-box {
+  right: 60px;
+  top: 170px;
+  position: absolute;
+  width: 368px;
+  background: #fff;
+  padding-top: 50px;
+}
+
+.registor-box-in {
+  width: 300px;
+  margin: 0 auto;
+}
+.registor-box-in p {
+  padding-left: 80px;
+}
+.registor-box-in p a {
+  text-decoration: none;
+  color: #387aff;
+  font-size: 18px;
+  text-align: center;
+}
+.registor-box-in form {
+  margin-top: 40px;
+}
+.registor-box-in form .err {
+  font-style: normal;
+  color: red;
+}
+.registor-box-in form label {
+  font-size: 14px;
+  position: absolute;
+  left: 5px;
+  top: 54px;
+  color: #ccc;
+}
+.registor-box-in form li {
+  list-style: none;
+  height: 46px;
+  border: 1px solid #dadada;
+  border-radius: 3px;
+  position: relative;
+  margin-bottom: 30px;
+}
+.registor-box-in form input {
+  position: absolute;
+  font-size: 14px;
+  border: 0;
+  left: 14px;
+  top: 14px;
+}
+.registor-box-in .remember {
+  font-size: 14px;
+  color: #7f7f7f;
+}
+.registor-box-in .enter input {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 46px;
+  background: #387aff;
+  border-radius: 4px;
+  text-align: center;
+  line-height: 46px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+.registor-box-in .zhuce {
+  margin-bottom: 30px;
+}
+.registor-box-in .zhuce a {
+  text-decoration: none;
+  color: #387aff;
+  font-size: 14px;
+}
+
+.registor-footer-box {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.registor-footer-top ul {
+  margin-right: 40px;
+}
+.registor-footer-top li {
+  width: 75px;
+  border-right: 1px solid #888;
+  float: left;
+  text-align: center;
+}
+.registor-footer-top li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #000;
+}
+.registor-footer-top .rexian span {
+  font-size: 14px;
+  margin-right: 10px;
+}
+.registor-footer-top .rexian a {
+  text-decoration: none;
+  display: inline-block;
+  width: 64px;
+  height: 20px;
+  background: #32a5e7;
+  text-align: center;
+  line-height: 20px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 2px;
+}
+.registor-footer-top .iconfont {
+  font-size: 40px;
+  color: #7f7f7f;
+}
+
+.registor-footer-bottom {
+  font-size: 12px;
+  color: #7f7f7f;
+}
+
+/*# sourceMappingURL=registor.css.map */

@@ -1,0 +1,50 @@
+@charset "utf-8";
+#index-flyme{
+    margin-bottom:50px;
+}
+.index-flyme-title{
+    text-align:center;
+    font-size:30px;
+    margin-bottom:10px;
+    h3{
+        font-weight:normal;
+    }
+}
+.index-flyme-main{
+    .first{
+        a{
+            width:615px;
+            height:245px;
+            img{
+                width:100%;
+                height:100%;
+            }
+        }
+    }
+    .last{
+        margin-right:0;
+    }
+    li{
+        margin:0 9px 15px 0;
+        float:left;
+        background:#fff;
+        a{
+            text-decoration:none;
+            display:block;
+            width:303px;
+            height:245px;
+            img{
+                display:block;
+                width:303px;
+                height:190px;
+            }
+            p{
+                overflow:hidden;
+                font-size:16px;
+                line-height:55px;
+                color:#515151;
+                text-align:center;
+            }
+        }
+    }
+}

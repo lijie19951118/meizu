@@ -1,0 +1,31 @@
+@charset "utf-8";
+.cart-header{
+    height:80px;
+    border:1px solid #efefef;
+    line-height:80px;
+    img{
+        width:125px;
+        height:23px;
+        margin-top:28px;
+    }
+    ul{
+        margin-left:50px;
+    }
+    li{
+        float:left;
+        font-size:14px;
+        color:#999;
+        margin-right:10px;
+    }
+    .li-color{
+        color:#333;
+    }
+    .right{
+        a{
+            text-decoration: none;
+            color:#666;
+            font-size:14px; 
+            margin-right:40px;
+        }
+    }
+}

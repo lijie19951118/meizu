@@ -1,0 +1,53 @@
+@charset "utf-8";
+#index-house{
+    margin-bottom:50px;
+    .index-house-title{
+        text-align:center;
+        font-size:30px;
+        margin-bottom:10px;
+        h3{
+            font-weight:normal;
+        }
+    }
+    .house-imgbox{
+        a{
+            display:block;
+            height:450px;
+            background:url(https://fms.res.meizu.com/dms/2019/02/14/2fd834ce-9b52-4c49-9e3f-9401dd308fe0.jpg) no-repeat center/2560px,450px;
+        }
+    }
+    
+    .house-ulbox{
+        .last{
+            margin-right:0px;
+        }
+        li{
+            float:left;
+            text-align:center;
+            margin:10px 9px 0 0;
+            a{
+                position:relative;
+                width:303px;
+                height:375px;
+                display:block;
+                background:#fff;
+                text-decoration:none;
+                .ear-title{
+                    position:absolute;
+                    top:270px;
+                    width:303px;
+                    display:block;
+                    .ear-name{
+                        display:block;
+                    }
+                    .ear-data{
+                        display:block;
+                    }
+                    .ear-price{
+                        display:block;
+                    }
+                }
+            }
+        }
+    }
+}

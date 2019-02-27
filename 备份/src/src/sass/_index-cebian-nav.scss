@@ -1,0 +1,25 @@
+#index-cebian-nav{
+    position:fixed;
+    z-index: 999;
+    left:0px;
+    top:50%;
+    margin-top:-184px;
+    display:none;
+    li{
+        background:#ccc;
+        font-size:16px;
+        text-align:center;
+        width:46px;
+        padding:7px 0;
+        border:1px solid #fff;
+        border-radius: 4px;
+        cursor:pointer;
+        color:#555;
+    }
+    li:hover{
+        background:#00beff;
+    }
+    .color-li{
+        background:#00beff;
+    }
+}
