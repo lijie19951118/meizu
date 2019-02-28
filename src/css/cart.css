@@ -1,0 +1,245 @@
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.wrapper {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.cart-header {
+  height: 80px;
+  border: 1px solid #efefef;
+  line-height: 80px;
+}
+.cart-header img {
+  width: 125px;
+  height: 23px;
+  margin-top: 28px;
+}
+.cart-header ul {
+  margin-left: 50px;
+}
+.cart-header li {
+  float: left;
+  font-size: 14px;
+  color: #999;
+  margin-right: 10px;
+}
+.cart-header .li-color {
+  color: #333;
+}
+.cart-header .right a {
+  text-decoration: none;
+  color: #666;
+  font-size: 14px;
+  margin-right: 40px;
+}
+
+.beijing {
+  background: #F4F6FA;
+  min-height: 347px;
+  position: relative;
+}
+
+.cart-main2 {
+  width: 1240px;
+  height: 300px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.cart-main {
+  display: none;
+}
+.cart-main .wrapper {
+  padding: 10px 0px 30px 0px;
+}
+
+.cart-main-top {
+  height: 50px;
+  background: #fff;
+  line-height: 50px;
+  padding: 0 50px 0 20px;
+}
+.cart-main-top li {
+  float: left;
+  color: rgba(51, 51, 51, 0.4);
+  font-size: 12px;
+  margin-left: 140px;
+}
+.cart-main-top li a {
+  text-decoration: none;
+  color: #00c3f5;
+}
+
+.cart-main-center {
+  display: none;
+  padding: 20px 50px 20px 20px;
+  margin: 10px 0;
+  background: #fff;
+}
+.cart-main-center .cart-main-jiajia {
+  font-size: 12px;
+  line-height: 22px;
+  color: #595959;
+}
+.cart-main-center .cart-main-jiajia span {
+  display: inline-block;
+  width: 60px;
+  height: 20px;
+  text-align: center;
+  line-height: 22px;
+  font-size: 12px;
+  color: #e02b41;
+  border-radius: 2px;
+  border: 1px solid #E02B41;
+  margin-right: 10px;
+}
+.cart-main-center .cart-main-jiajia a {
+  text-decoration: none;
+  color: #27b3ff;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.cart-main-phone {
+  margin-left: 50px;
+}
+.cart-main-phone img {
+  width: 100px;
+  height: 100px;
+}
+.cart-main-phone .phone-img {
+  position: relative;
+}
+.cart-main-phone .phone-img input {
+  position: absolute;
+  top: 40px;
+  left: -48px;
+}
+.cart-main-phone .phone-title {
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.cart-main-phone .phone-title .phone-title1 {
+  font-size: 16px;
+  color: #262626;
+  margin-bottom: 10px;
+}
+.cart-main-phone .phone-title .phone-title2 {
+  font-size: 14px;
+  color: #8C8C8C;
+}
+.cart-main-phone .cart-main-price {
+  position: relative;
+  padding-top: 35px;
+}
+.cart-main-phone .cart-main-price .danjia {
+  color: #666;
+  font-size: 16px;
+  margin-right: 103px;
+}
+.cart-main-phone .cart-main-price .shuliang {
+  border: 1px solid #00c3f5;
+}
+.cart-main-phone .cart-main-price .shuliang .jian {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  border-right: 1px solid #00c3f5;
+}
+.cart-main-phone .cart-main-price .shuliang .shuzi {
+  height: 20px;
+  width: 40px;
+  text-align: center;
+  border: 0;
+}
+.cart-main-phone .cart-main-price .shuliang .jia {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  border-left: 1px solid #00c3f5;
+}
+.cart-main-phone .cart-main-price .xiaoji {
+  color: #E02B41;
+  font-size: 16px;
+  margin-left: 111px;
+  position: absolute;
+  right: 154px;
+}
+.cart-main-phone .cart-main-price .shanchu {
+  margin-left: 280px;
+  text-decoration: none;
+  color: #27b3ff;
+}
+
+.cart-main-buttom {
+  padding: 0 50px 0 20px;
+  background: #fff;
+  line-height: 70px;
+}
+.cart-main-buttom .left a:hover {
+  color: red;
+}
+.cart-main-buttom .left a {
+  color: #8C8C8C;
+  text-decoration: none;
+  margin: 0 30px;
+  font-size: 14px;
+}
+.cart-main-buttom .left span {
+  color: #8C8C8C;
+  font-size: 14px;
+}
+.cart-main-buttom .left span i {
+  font-style: normal;
+  color: #00c3f5;
+}
+.cart-main-buttom .right i {
+  color: #E02B41;
+  font-style: normal;
+  font-weight: bold;
+}
+.cart-main-buttom .right span {
+  font-size: 20px;
+  color: #E02B41;
+  font-weight: bold;
+}
+.cart-main-buttom .right .jiesuan {
+  width: 89px;
+  height: 34px;
+  background: #F66567;
+  text-align: center;
+  line-height: 34px;
+  border-radius: 2px;
+  color: #fff;
+  margin-top: 19px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=cart.css.map */
