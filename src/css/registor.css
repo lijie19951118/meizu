@@ -32,6 +32,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.registor-header {
+  position: fixed;
+  left: 63px;
+  z-index: 999;
+}
 .registor-header .registor-header-box {
   width: 1200px;
   margin: 0 auto;
@@ -88,6 +93,11 @@
   top: 54px;
   color: #ccc;
 }
+.registor-box-in form label img {
+  position: absolute;
+  top: -39px;
+  left: 257px;
+}
 .registor-box-in form li {
   list-style: none;
   height: 46px;
@@ -106,8 +116,22 @@
 .registor-box-in .remember {
   font-size: 14px;
   color: #7f7f7f;
+  position: relative;
+  margin-left: 33px;
+}
+.registor-box-in .remember input {
+  position: position;
+  top: -2px;
+  left: -31px;
+}
+.registor-box-in .enter {
+  position: relative;
+  height: 79px;
 }
 .registor-box-in .enter input {
+  position: absolute;
+  top: -11px;
+  left: 0px;
   margin-top: 30px;
   margin-bottom: 10px;
   width: 300px;

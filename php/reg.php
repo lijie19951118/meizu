@@ -26,8 +26,8 @@
 		$pass=md5($_POST['password']);
 		//$email=$_POST['email'];
 		//添加语句
-		$query="insert user(sid,username,password,regdate) values(null,'$user','$pass',NOW())";
+		$query="insert user(username,password,regdate) values('$user','$pass',NOW())";
 		mysql_query($query);
-		header('location:login.html');//页面的跳转
+		header('location:../src/login.html');//页面的跳转
 	}
 ?>
